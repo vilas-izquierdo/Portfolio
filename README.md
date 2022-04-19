@@ -14,6 +14,6 @@ Links to github and linkedin page as well as a "works" section with images that 
 ## Links
 
 
-<a href="https://vilas-izquierdo.github.io/handy-dandy-scheduler/">Deployed Page</a>
+<a href="https://vilas-izquierdo.github.io/Portfolio/">Deployed Page</a>
 
 <a href="https://github.com/vilas-izquierdo/Portfolio">GitHub</a>
