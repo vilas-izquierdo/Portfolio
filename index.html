@@ -3,79 +3,72 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./assets/css/style.css" rel="stylesheet">
   <title>Vilas Izquierdo Portfolio</title>
-
-  <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 
-<body class="">
-
-  <div class="background-color-layer"></div>
-  <main class="content-wrapper">
-    <header class="white-text-container section-container">
-      <div class="text-center">
-        <h1>Vilas Izquierdo</h1>
-        <p>Full Stack Web Developer</p>
-        <p>Email: <a href="mailto:vilasi@gmail.com">vilasi@gmail.com</a></p>
-        <p>
-
-          <a class="fa-icon fa-icon-2x" href="https://github.com/vilas-izquierdo" title="github">
-            <i class="fa fa-github"></i>
-          </a>
-          <a class="fa-icon fa-icon-2x" href="https://www.linkedin.com/in/vilasizquierdo/" title="linkedin">
-            <i class="fa fa-linkedin"></i>
-          </a>
-        </p>
+<body>
+<main>
+  <div class="container ">
+    <div class="row justify-content-center ">
+      <div class="col-auto text-center pt-5">
+        <h1 class="text-light">Vilas Izquierdo</h1>
+        <p class="text-light">Full Stack Web Developer</p>
+        <a  class="text-warning" href="mailto:vilasi@gmail.com">vilasi@gmail.com</a>
       </div>
-    </header>
+    </div>
+  </div>
 
-    <div class="container">
-      <div class="card">
-        <div class="card-block">
-          <h2>Work</h2>
-          <div class="row">
-            <div class="col-md-4">
-              <a href="https://mrmrc182.github.io/farm-market-finder/">
-              <img src="./assets/images/market.png" class="img-responsive" alt="off to the market thumbnail"></a>
-              <h3 class="h5">Off To The Market</h3>
-
-            </div>
-            <div class="col-md-4">
-
-            <a href="https://vilas-izquierdo.github.io/the-password-generator/">
-              <img src="./assets/images/pass.png" class="img-responsive" alt="password generator thumbnail"></a>
-              <h3 class="h5">Password Generator</h3>
-
-            </div>
-            <div class="col-md-4">
-              <a href="https://vilas-izquierdo.github.io/handy-dandy-scheduler/">
-              <img src="./assets/images/schedule.png" class="img-responsive" alt="handy dandy scheduler thumbnail"></a>
-              <h3 class="h5">Handy Dandy Scheduler</h3>
-
-            </div>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-auto text-center m-4">
+        <a  class="text-warning" href="https://github.com/vilas-izquierdo">Github</a>
       </div>
+      <div class="col-auto text-center m-4 ">
+        <a class="text-warning" href="https://www.linkedin.com/in/vilasizquierdo/">LinkedIn</a>
+      </div>
+    </div>
+  </div>
 
-      <div class="card">
-        <div class="card-block">
-          <h2>About Me</h2>
-          <div class="work-experience">
-            <p>Full Stack Web Developer from Southern California.</p>
-          </div>
+  <div class="container">
+    <div id ="centerit" class="row justify-content-left p-5 m-3 bg-light text-dark">
+      <h2>Work</h2>
+      <div class="container text">
+        <div class="col-auto text-center">
+          <a href="https://mrmrc182.github.io/farm-market-finder/">
+          <img class="border border-dark m-3" src="./assets/images/market.png" alt="Off To the Market Thumbnail">
+        </a>
+        <a href="https://vilas-izquierdo.github.io/handy-dandy-scheduler/"">
+          <img class="border border-dark m-3" src="./assets/images/schedule.png" alt="Handy Dandy Scheduler Thumbnail">
+         </a>
+         <a href="https://vilas-izquierdo.github.io/the-password-generator/">
+          <img class="border border-dark m-3" src="./assets/images/pass.png" alt="Password Generator Thumbnail">
+        </a>
         </div>
       </div>
     </div>
-    </div>
-    </div>
 
+    <div class="row justify-content-left p-5 m-3 bg-light text-dark">
+      <h2>About Me</h2>
+      <div class="container text m-2 text-center">
+        <div class="col-auto about">
+          <p>Full Stack Web Developer from Southern California.</p>
+          <p>Languages: HTML, CSS, JavaScript, Node</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div><br>
+</main>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function (event) {
-        scrollRevelation('.card');
-      });
-    </script>
-    <script type="text/javascript" src="./assets/script/script.js"></script>
 </body>
 
 </html>
